@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style: none;
+}
+img{
+    display: block;
+}
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: #efefef;
+    margin: 5% auto;
+}
+h1{
+    text-align: center;
+    background-color: skyblue;
+    height: 83.14px;
+    line-height: 83.14px;
+}
+.main-image img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.img-thumb > li{
+    width: 129.16px;
+    float: left;
+    margin-right: 5px;
+    
+}
+.img-thumb > li:last-child{
+    margin-right: 0;
+}
+.img-thumb > li > img {
+    width: 100%;
+}
+.img-thumb > li > img:hover{
+    width: 102% ;
+}
